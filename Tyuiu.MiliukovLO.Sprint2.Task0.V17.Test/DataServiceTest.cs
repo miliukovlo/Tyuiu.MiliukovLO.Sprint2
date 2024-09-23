@@ -9,7 +9,7 @@ namespace Tyuiu.MiliukovLO.Sprint2.Task0.V17.Test
         public void CheckExpression()
         {
             var dataService = new DataService();
-            Assert.AreEqual([true, false, false, false, false, false], dataService.GetCompareOperations(1022, 766));
+            Assert.AreEqual([false, true, false, false, false, false], dataService.GetCompareOperations(1022, 766));
         }
     }
 }

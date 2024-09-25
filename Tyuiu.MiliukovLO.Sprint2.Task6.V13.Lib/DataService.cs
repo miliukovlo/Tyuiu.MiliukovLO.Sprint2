@@ -11,109 +11,110 @@ namespace Tyuiu.MiliukovLO.Sprint2.Task6.V13.Lib
                 case 1:
                     if (n < 31)
                     {
-                        return $"{g}.{m}.{n+1}";
-                    } else
+                        return $"0{n + 1}.0{m}.{g}";
+                    }
+                    else
                     {
-                        return $"{g}.{m+1}.{1}";
+                        return $"0{1}.0{m + 1}.{g}";
                     }
                 case 2:
                     if (n < 29)
                     {
-                        return $"{g}.{m}.{n+1}";
+                        return $"0{n + 1}.0{m}.{g}";
                     }
                     else
                     {
-                        return $"{g}.{m+1}.{1}";
+                        return $"0{1}.0{m + 1}.{g}";
                     }
                 case 3:
                     if (n < 31)
                     {
-                        return $"{g}.{m}.{n+1}";
+                        return $"0{n + 1}.0{m}.{g}";
                     }
                     else
                     {
-                        return $"{g}.{m+1}.{1}";
+                        return $"0{1}.0{m + 1}.{g}";
                     }
                 case 4:
                     if (n < 30)
                     {
-                        return $"{g}.{m}.{n+1}";
+                        return $"0{n + 1}.0{m}.{g}";
                     }
                     else
                     {
-                        return $"{g}.{m+1}.{1}";
+                        return $"0{1}.0{m + 1}.{g}";
                     }
                 case 5:
                     if (n < 31)
                     {
-                        return $"{g}.{m}.{n+1}";
+                        return $"0{n + 1}.0{m}.{g}";
                     }
                     else
                     {
-                        return $"{g}.{m+1}.{1}";
+                        return $"0{1}.0{m + 1}.{g}";
                     }
                 case 6:
                     if (n < 30)
                     {
-                        return $"{g}.{m}.{n+1}";
+                        return $"0{n + 1}.0{m}.{g}";
                     }
                     else
                     {
-                        return $"{g}.{m+1}.{1}";
+                        return $"0{1}.0{m + 1}.{g}";
                     }
                 case 7:
                     if (n < 31)
                     {
-                        return $"{g}.{m}.{n+1}";
+                        return $"0{n + 1}.0{m}.{g}";
                     }
                     else
                     {
-                        return $"{g}.{m+1}.{1}";
+                        return $"0{1}.0{m + 1}.{g}";
                     }
                 case 8:
                     if (n < 31)
                     {
-                        return $"{g}.{m}.{n+1}";
+                        return $"0{n + 1}.0{m}.{g}";
                     }
                     else
                     {
-                        return $"{g}.{m+1}.{1}";
+                        return $"0{1}.0{m + 1}.{g}";
                     }
                 case 9:
                     if (n < 30)
                     {
-                        return $"{g}.{m}.{n+1}";
+                        return $"0{n + 1}.0{m}.{g}";
                     }
                     else
                     {
-                        return $"{g}.{m+1}.{1}";
+                        return $"0{1}.0{m + 1}.{g}";
                     }
                 case 10:
                     if (n < 31)
                     {
-                        return $"{g}.{m}.{n+1}";
+                        return $"0{n + 1}.{m}.{g}";
                     }
                     else
                     {
-                        return $"{g}.{m+1}.{1}";
+                        return $"0{1}.{m+1}.{g}";
                     }
                 case 11:
                     if (n < 30)
                     {
-                        return $"{g}.{m}.{n+1}";
+                        return $"0{n + 1}.{m}.{g}";
                     }
                     else
                     {
-                        return $"{g}.{m+1}.{1}";
+                        return $"0{1}.{m+1}.{g}";
                     }
                 case 12:
                     if (n < 31)
                     {
-                        return $"{g}.{m}.{n+1}";
+                        return $"0{n+1}.{m}.{g}";
                     }
                     else
                     {
-                        return $"{g}.{m+1}.{1}";
+                        return $"0{1}.{1}.{g}";
                     }
                 default:
                         return $"{g}.{m}.{n+1}";

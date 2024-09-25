@@ -8,7 +8,7 @@ namespace Tyuiu.MiliukovLO.Sprint2.Task3.V21.Lib
         {
             if (x > 1)
             {
-                return Math.Round(x * Math.Pow((x + 9) / (x - 1), x) + 3, 3);
+                return Math.Round(x * Math.Pow((x + 9) / (x - 1), x), 3);
             }
             else if (x == 0)
             {

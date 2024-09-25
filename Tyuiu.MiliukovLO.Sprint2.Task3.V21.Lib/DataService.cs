@@ -8,19 +8,19 @@ namespace Tyuiu.MiliukovLO.Sprint2.Task3.V21.Lib
         {
             if (x > 1)
             {
-                return x * Math.Pow(((x + 9) / (x - 1)), x);
+                return Math.Round(x * Math.Pow((x + 9) / (x - 1) - 3, x), 3);
             }
             else if (x == 0)
             {
-                return (x * x + 10) / ((x * x) - Math.Sin(x * x) + 12);
+                return Math.Round((x * x + 10) / ((x * x) - Math.Sin(x * x) + 12), 3);
             }
             else if (x > -25 && x < 2)
             {
-                return Math.Pow((1 + 1 / (x * x)), x);
+                return Math.Round(Math.Pow((1 + 1 / (x * x)), x), 3);
             }
             else if (x < -25)
             {
-                return x + 10 * x - 1 / x;
+                return Math.Round(x + 10 * x - 1 / x, 3);
             }
             else return 0;
         }

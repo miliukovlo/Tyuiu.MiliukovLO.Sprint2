@@ -6,7 +6,7 @@ namespace Tyuiu.MiliukovLO.Sprint2.Task5.V14.Lib
     {
         public string FindDayName(int k, int d)
         {
-            int dayOfWeek = (d + k - 2) % 7 + 1;
+            int dayOfWeek = (d + k - 2) % 7;
             if (dayOfWeek == 0)
             {
                 dayOfWeek = 7;
